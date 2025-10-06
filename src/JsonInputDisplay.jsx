@@ -82334,7 +82334,7 @@ export default function JsonInputDisplay() {
       }
     }) || [];
 
-  const rows = jsonData.map((item, index) => ({
+  const rows = playerData.map((item, index) => ({
     id: index + 1,
     title: item.title,
     difficulty: item.diff,
